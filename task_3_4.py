@@ -30,7 +30,7 @@ def users_hobbies(names, hobbies, result_f):
 # ########################## END VAR WITH DICT #############№#############
 
 if __name__ == "__main__":
-    bf_names = input("Names: ")
-    bf_hobbies = input("Hobbies: ")
+    bf_names = input("Names file: ")
+    bf_hobbies = input("Hobbies file: ")
     bf_result_f = input("Save to: ")
     users_hobbies(bf_names, bf_hobbies, bf_result_f)
